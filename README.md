@@ -65,8 +65,8 @@ module "aws_key_pair" {
 ## Inputs
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_key_name"></a> [key_name](#input_key_name) | The name for the EC2 key pair. | `string` | `null` | no |
-| <a name="input_public_key"></a> [public_key](#input_public_key) | The public key material. | `string` | `""` | no |
+| <a name="input_key_name"></a> [key_name](#input_key_name) | The name for the EC2 key pair. | `string` | `null` | yes |
+| <a name="input_public_key"></a> [public_key](#input_public_key) | The public key material. | `string` | `""` | yes |
 | <a name="input_tags"></a> [tags](#input_tags) | A map of tags for the resources. | `map(string)` | `{}` | no |
 
 ## Outputs
